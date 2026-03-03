@@ -95,4 +95,5 @@ def isolated(l):
     try:
         return lookup(chartype(l) + " ISOLATED FORM")
     except (LookupError, ValueError, TypeError):
+
         return None
